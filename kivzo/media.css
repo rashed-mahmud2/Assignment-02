@@ -1,0 +1,41 @@
+@media screen and (max-width: 1200px) {
+  .editor-name {
+    top: 15rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .image-slider {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .image-slider div img {
+    width: 95%;
+  }
+
+  .technology-latest {
+    height: 70vh;
+  }
+
+  .editor-name {
+    width: 80%;
+    top: 10rem;
+  }
+
+  footer input::placeholder {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .editor-name {
+    top: 25rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .editor-name {
+    top: 22rem;
+  }
+}

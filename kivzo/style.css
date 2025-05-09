@@ -1,0 +1,157 @@
+body {
+  background-color: #f9f9f9;
+}
+
+/* Utility  */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  top: -0.5rem;
+}
+
+/* image-slider section */
+.image-slider {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.image-slider div img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.4s;
+}
+
+.image-slider div img:hover {
+  transform: scale(1.05);
+}
+
+/* technology section */
+.custom-card {
+  background-color: aliceblue;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  transition: 0.4s;
+}
+.custom-card:hover {
+  transform: scale(1.05);
+}
+
+#image-custom-card-1 {
+  height: 275px;
+}
+
+.technology-latest {
+  background-image: url(img/n1t5.png);
+  background-repeat: no-repeat;
+  height: 97%;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+.technology-latest-inner {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* advertisement-section */
+.advertise-section {
+  background-image: url(img/more.png);
+  height: 24rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.5rem;
+}
+
+.advertise-text {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* editors section */
+.editor-name {
+  width: 90%;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 25rem;
+}
+
+.editor-img {
+  transition: 0.4s;
+}
+
+.editor-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* podcast section */
+.podcast-1 {
+  height: 550px;
+  background-image: url(img/p.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.5rem;
+}
+
+.podcast-1-text {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(240, 248, 255, 0.564),
+    rgba(0, 0, 0, 0.8)
+  );
+  backdrop-filter: blur(2px);
+  margin-inline: auto;
+  padding: 1rem;
+  color: white;
+}
+
+.podcast-2 {
+  height: 265px;
+  background-image: url(img/p2.png);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 1.3rem;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+}
+
+.podcast-3 {
+  height: 265px;
+  background-image: url(img/p3.png);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+}
+
+.podcast-2-text,
+.podcast-3-text {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(240, 248, 255, 0.564),
+    rgba(0, 0, 0, 0.8)
+  );
+  padding: 1rem;
+}
+
+footer input::placeholder {
+  margin-right: 15rem;
+  font-weight: 600;
+}
